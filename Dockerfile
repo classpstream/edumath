@@ -2,10 +2,10 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-LABEL org.opencontainers.image.title="Holy Unblocker LTS" \
-      org.opencontainers.image.description="An effective, privacy-focused web proxy service" \
+LABEL org.opencontainers.image.title="EduMaths" \
+      org.opencontainers.image.description="An effective, privacy-focused service" \
       org.opencontainers.image.version="6.9.1" \
-      org.opencontainers.image.authors="Holy Unblocker Team" \
+      org.opencontainers.image.authors="EduMaths Team" \
       org.opencontainers.image.source="https://github.com/QuiteAFancyEmerald/Holy-Unblocker/"
 
 RUN apk add --no-cache tor bash
